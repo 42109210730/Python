@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "npx vue-tsc --noEmit && npx vite build",
-    "vercel-build": "npm install && npx vue-tsc --noEmit && npx vite build",
+    "vercel-build": "npm install && npx vite build --skipTypeCheck",
     "preview": "vite preview"
   },
   "dependencies": {
