@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx vue-tsc --noEmit && npx vite build",
+    "build": "vite build",
+    "type-check": "npx vue-tsc --noEmit",
     "vercel-build": "npm install && vite build",
     "preview": "vite preview"
   },
