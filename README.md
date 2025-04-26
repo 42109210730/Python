@@ -1,4 +1,7 @@
 招聘信息多维度可视化与个性化推荐系统
+超级管理员
+username: admin
+password: 123456
 登录注册页
 ![alt text](image.png)
 
